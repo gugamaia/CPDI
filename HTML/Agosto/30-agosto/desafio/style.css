@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 15px;
+    padding: 15px;
+}
+
+main{
+    margin-left: 10px;
+}
