@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>11 Setembro</title>
 </head>
 <body>
-    
+    <header><h1>Imagens e Mídia</h1></header>
+
+    <main>
+        <div>
+            <h2>Imagens dinâmicas</h2>
+            <p>Aumente e diminua o tamanho da janela do seu navegador e, veja como as imagens irão se comportar.</p>
+
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+                <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
+                <img src="imagens/foto-g.png" alt="Imagem flexivel">
+            </picture>
+        </div>
+
+       <div>
+            <h2>Tocando o áudio</h2>
+            <audio preload="metadata" controls loop>
+                <source src="midia/pray.mp3" type="audio/mpeg">
+                <p>Se deu mal, não vai tocar <a href="midia/pray.mp3">APERTA AQUI</a></p>
+            </audio>
+       </div>
+
+        <div>
+            <h3>PreLoad</h3>
+            <p>Indica se o som será ou não pré-carregado, aceita 3 valores/parâmetros.</p>
+            <ul>
+                <li>Metadata</li>
+                <li>none -> não vai carregar</li>
+                <li>auto -> quando quer trolar a pessoa e vai carregar tudo assim que abrir o site</li>
+            </ul>
+        </div>
+        
+        <div>
+            <h3>Movies</h3>
+            <h4>Videos hospedados local</h4>
+
+            <video width="600" poster="">
+                <source>
+            </video>
+        </div>
+        
+    </main>
 </body>
 </html>
