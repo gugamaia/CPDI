@@ -1,0 +1,98 @@
+   
+.bikini_bottom {
+background-color: rgba(255, 255, 255, 0.8);
+padding: 20px;
+border-radius: 20px;
+margin: 0 auto; 
+max-width: 30%;
+text-align: center;
+font-size: larger;
+font-weight: bold;
+font-family: "Arial", sans-serif;
+}
+
+#cast {
+background-color: rgba(255, 255, 255, 0.8);
+background-image: url(img/sponge_bob.png);
+background-position: center center;
+background-repeat: no-repeat;
+padding: 30px;
+border-radius: 20px;
+margin: 20px 20px ; 
+max-width: 200px;
+text-align: center;
+height: 320px;
+max-width: 90%;
+font-size: larger; 
+font-weight: bold;
+font-family: "Arial", sans-serif;
+}
+.spongebob:after {
+content: "";
+background-image: url(img/bob_2.png); /* Esponja */
+background-size: 100px;
+background-position: center center;
+background-repeat: no-repeat;
+position: absolute;
+top: 200px;
+left: 450px;
+right: 0;
+bottom: 0;
+border-radius: 20px;
+}
+
+.squidward:after {
+content: "";
+background-image: url(img/squidward_tentacles.png); /* Molusculo*/
+background-size: 110px;
+background-position: center center;
+background-repeat: no-repeat;
+position: absolute;
+top: 120px;
+left: 0px;
+right: 0;
+bottom: 0;
+border-radius: 20px;
+}
+
+.patrick:after {
+content: "";
+background-image: url(img/patrick.png); /* Estrela */
+background-size: 120px;
+background-position: center center;
+background-repeat: no-repeat;
+position: absolute;
+top: 180px;
+left: -550px;
+right: 0;
+bottom: 0;
+border-radius: 20px;
+}
+
+.mr_krabs:after {
+content: "";
+background-image: url(img/mr_krabs.png); /* Carangueijo */
+background-size: 100px;
+background-position: center center;
+background-repeat: no-repeat;
+position: absolute;
+top: 180px;
+left: 750px;
+right: 0;
+bottom: 0;
+border-radius: 20px;
+}
+
+.plankton:after {
+content: "";
+background-image: url(img/plankton.png); /* Bactéria */
+background-size: 50px;
+background-position: center center;
+background-repeat: no-repeat;
+position: absolute;
+top: -150px;
+left: 720px;
+right: 0;
+bottom: 0;
+border-radius: 20px;
+}

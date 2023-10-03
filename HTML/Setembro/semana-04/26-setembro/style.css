@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url("../fontes/idroid.otf");
+    src: url("../fontes/idroid.otf") format('opentype');
     font-weight: normal;
 }
 
@@ -45,7 +45,7 @@ header > h1 {
     font-family: var(--font-destaque);
     font-weight: normal;
     font-size: 3em;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.667);
 }
 
@@ -60,3 +60,35 @@ header > p {
     margin-bottom: 20px;
     max-width: 500px;
 }
+
+nav{
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.446);
+}
+
+nav > a {
+    color: var(--cor1);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor5)
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 px 0 px 10 px black;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
